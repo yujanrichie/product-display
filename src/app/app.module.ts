@@ -8,13 +8,15 @@ import { AppComponent } from './app.component';
 import { ProductCarouselComponent } from 'src/app/components/product-carousel/product-carousel.component';
 import { ProductDisplayComponent } from 'src/app/components/product-display/product-display.component';
 import { SizeSelectorComponent } from 'src/app/components/size-selector/size-selector.component';
+import { ProductTypeSelectorComponent } from 'src/app/components/product-type-selector/product-type-selector.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductCarouselComponent,
     ProductDisplayComponent,
-    SizeSelectorComponent
+    SizeSelectorComponent,
+    ProductTypeSelectorComponent
   ],
   imports: [
     BrowserModule,

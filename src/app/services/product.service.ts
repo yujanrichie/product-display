@@ -71,6 +71,11 @@ export class ProductService {
         sizeList: this.getMappedSizeList(type.children)
       };
 
+      //get the first media imageURL to assign as main imageURL for this type
+      if ((type.media != null) && (type.media.length > 0)) {
+        newProductType.imageURL = type.media[0].url;
+      }
+      
       mappedTypeList.push(newProductType);
     });
 

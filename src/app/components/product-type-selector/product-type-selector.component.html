@@ -1,0 +1,23 @@
+<ng-template #productTypeSelector
+    let-productType="productType"
+    let-index="index">
+    <a *ngIf="productType != null" href="#" class="color-type-image-link">
+        <span class="color-type-image"
+            [class.selected]="productType?.isSelected"
+            style="background-image: url('{{baseImageURL + productType?.imageURL}}');">
+        </span>
+    </a>
+    
+</ng-template>
+
+<div class="product-type-selector">
+    <span class="color-type-label">Color: {{selectedColor}}</span>
+
+    <ng-container *ngFor="let productType of productTypeList; let i = index"
+        [ngTemplateOutlet]="productTypeSelector"
+        [ngTemplateOutletContext]="{
+            productType: productType,
+            index: i
+        }">
+    </ng-container>
+</div>

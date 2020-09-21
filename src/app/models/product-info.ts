@@ -13,6 +13,7 @@ export interface ProductType {
     name: string;
     colorText?: string;
     url?: string;
+    imageURL?: string,
     isSelected?: boolean;
     mediaList?: ProductTypeMediaInfo[];
     sizeList?: ProductTypeSizeInfo[];
