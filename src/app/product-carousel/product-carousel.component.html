@@ -1,0 +1,18 @@
+<ng-template #productItem
+    let-product="product"
+    let-index="index">
+    <div class="product-item">
+        <img class="product-item-image" [src]="product?.imageURL">
+    </div>
+</ng-template>
+
+<div class="product-carousel-container">
+    <ng-container *ngFor="let product of testImageList; let i = index"
+        [ngTemplateOutlet]="productItem"
+        [ngTemplateOutletContext]="{
+            product: product,
+            index: i
+        }">
+    </ng-container>
+</div>
+
