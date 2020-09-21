@@ -1,0 +1,73 @@
+.size-selector {
+    max-width: 410px;
+
+    .size-selector-header {
+        padding-bottom: .8125rem;
+        padding-top: .8125rem;
+
+        .select-size-label, .size-guide {
+            color: #8c8c8c;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            font-family: 'Jost' ,sans-serif;
+            font-size: .8125rem;
+            line-height: normal;
+            letter-spacing: normal;
+        }
+    
+        .select-size-label {
+            text-transform: uppercase;
+            text-align: left;
+        }
+    
+        .size-guide {
+            text-align: right;
+            float: right;
+        }
+    }
+    
+    .size-button {
+        position: relative;
+        cursor: pointer;
+        height: 2.8125rem;
+        width: 2.8125rem;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        padding: .375rem 0;
+        margin-bottom: .625rem;
+        margin-right: .625rem;
+        background-color: transparent;
+        overflow: hidden;
+        transition: all .2s linear;
+        color: #000;
+        border: 1px solid #000;
+        font-weight: 500;
+        font-family: 'Jost',sans-serif;
+        font-size: .875rem;
+        line-height: .875rem;
+        letter-spacing: normal;
+        outline: none;
+
+        &:disabled {
+            opacity: .4;
+            cursor: default;
+        }
+
+        &.selected {
+            color: #fff;
+            background-color: #000;
+        }
+    
+        .size-info {
+            display: flex;
+            flex-direction: column;
+    
+            .number-size, .text-size {
+                font-size: .6875rem;
+            }
+        }
+    }
+    
+}

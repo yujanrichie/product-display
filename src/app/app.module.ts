@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductCarouselComponent } from 'src/app/components/product-carousel/product-carousel.component';
 import { ProductDisplayComponent } from 'src/app/components/product-display/product-display.component';
+import { SizeSelectorComponent } from 'src/app/components/size-selector/size-selector.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductCarouselComponent,
-    ProductDisplayComponent
+    ProductDisplayComponent,
+    SizeSelectorComponent
   ],
   imports: [
     BrowserModule,

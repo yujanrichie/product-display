@@ -31,4 +31,5 @@ export interface ProductTypeSizeInfo {
     inStock: boolean;
     size?: string;
     textSize?: string;
+    isSelected?: boolean;
 }
