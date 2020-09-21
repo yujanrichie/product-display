@@ -4,8 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ProductCarouselComponent } from './product-carousel/product-carousel.component';
-import { ProductDisplayComponent } from './product-display/product-display.component';
+import { ProductCarouselComponent } from './components/product-carousel/product-carousel.component';
+import { ProductDisplayComponent } from './components/product-display/product-display.component';
 
 @NgModule({
   declarations: [

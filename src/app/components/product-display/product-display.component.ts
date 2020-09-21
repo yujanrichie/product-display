@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductService } from '../product.service';
+
+import { ProductService } from '../../services/product.service';
+import { ProductInfo, ProductType, ProductTypeMediaInfo, ProductTypeSizeInfo } from '../../models/product-info';
 
 @Component({
   selector: 'app-product-display',
@@ -7,7 +9,7 @@ import { ProductService } from '../product.service';
   styleUrls: ['./product-display.component.scss']
 })
 export class ProductDisplayComponent implements OnInit {
-  public productData: any = null;
+  public productData: ProductInfo = null;
 
   constructor(public productService: ProductService) { }
 
@@ -18,5 +20,4 @@ export class ProductDisplayComponent implements OnInit {
   private getProductData(): void {
     this.productService.getProductData().subscribe(data => this.productData = data);
   }
-
 }
