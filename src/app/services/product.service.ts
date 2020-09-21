@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { ProductInfo, ProductType, ProductTypeMediaInfo, ProductTypeSizeInfo } from '../models/product-info';
+import { ProductInfo, ProductType, ProductTypeMediaInfo, ProductTypeSizeInfo } from 'src/app/models/product-info';
 
 
 @Injectable({
@@ -65,11 +65,17 @@ export class ProductService {
         id: type.comestriID,
         status: type.status,
         name: type.name,
+        price: type.price,
         colorText: type.pdpColor,
         url: type.url,
         mediaList: this.getMappedMediaList(type.media),
         sizeList: this.getMappedSizeList(type.children)
       };
+
+      //get the first media imageURL to assign as main imageURL for this type
+      if ((type.media != null) && (type.media.length > 0)) {
+        newProductType.imageURL = type.media[0].url;
+      }
 
       mappedTypeList.push(newProductType);
     });

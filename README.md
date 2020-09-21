@@ -1,27 +1,19 @@
-# ProductDisplay
+## How to Install and Run:
+1. clone the repo (i.e. `git clone https://github.com/yujanrichie/product-display.git`)
+2. checkout master branch
+3. npm install
+4. npm start
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Remaining Work:
+1. Update carousel styling
+    - using media queries, show only 1 carousel image on smaller browser widths instead of 2
+    - estimated time needed: 30-45 minutes
+2. Update product type routing
+    - add route for different product types (i.e. clicking on a different product type redirect url)
+    - estimated time needed: 30-60 minutes
+3. Mini image gallery (below carousel)
+    - create new component that show all images pulled from API media images based on selected product type
+    - estimated time needed: 1 hour
+4. Collapsible Sections (i.e. description and shipping info)
+    - create an accordion component with different body options
+    - estimated time needed: 1 hour

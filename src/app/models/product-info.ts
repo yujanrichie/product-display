@@ -11,8 +11,10 @@ export interface ProductType {
     id: string;
     status: string;
     name: string;
+    price: number;
     colorText?: string;
     url?: string;
+    imageURL?: string,
     isSelected?: boolean;
     mediaList?: ProductTypeMediaInfo[];
     sizeList?: ProductTypeSizeInfo[];
@@ -31,4 +33,5 @@ export interface ProductTypeSizeInfo {
     inStock: boolean;
     size?: string;
     textSize?: string;
+    isSelected?: boolean;
 }

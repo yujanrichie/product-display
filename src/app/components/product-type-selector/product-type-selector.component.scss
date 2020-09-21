@@ -1,0 +1,36 @@
+.product-type-selector {
+    .color-type-label {
+        display: block;
+        text-align: left;
+        color: #8c8c8c;
+        font-weight: 600;
+        margin: 0;
+        padding: 0;
+        padding-bottom: .8125rem;
+        text-transform: uppercase;
+        font-family: 'Jost',sans-serif;
+        font-size: .8125rem;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+
+    .color-type-image-link {
+        display: inline-block;
+        text-decoration: none;
+
+        .color-type-image {
+            width: 3.6875rem;
+            height: 5.625rem;
+            border-radius: 0;
+            border: .1875rem solid #fff;
+            display: inline-block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-right: 0;
+
+            &.selected {
+                border: .125rem solid #8c8c8c;
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+<ng-template #sizeButton
+    let-sizeInfo="sizeInfo"
+    let-index="index">
+    <button class="size-button"
+        [class.selected]="sizeInfo?.isSelected"
+        [disabled]="!sizeInfo?.inStock" 
+        (click)="selectSize(index)">
+        <div class="size-info">
+            <span class="number-size">{{sizeInfo?.size}}</span>
+            <span class="text-size">{{sizeInfo?.textSize}}</span>
+        </div>
+    </button>
+</ng-template>
+
+<div class="size-selector">
+    <div class="size-selector-header">
+        <span class="select-size-label">Select US Size: {{ selectedSize }}</span>
+        <span class="size-guide">
+            <a href="#">Size guide</a>
+        </span>
+    </div>
+    
+    <ng-container *ngFor="let sizeInfo of sizeInfoList; let i = index"
+        [ngTemplateOutlet]="sizeButton"
+        [ngTemplateOutletContext]="{
+            sizeInfo: sizeInfo,
+            index: i
+        }">
+    </ng-container>
+</div>
+

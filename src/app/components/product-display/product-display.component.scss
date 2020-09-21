@@ -1,0 +1,121 @@
+.product-display-container {
+    padding-right: 2.1875rem;
+    padding-left: 2.1875rem;
+    max-width: 100%;
+
+    @media (min-width: 1440px) {
+        max-width: 1296px;
+    }
+
+    .breadcrumbs {
+        .breadcrumb {
+            list-style: none;
+            padding: .5rem 1rem;
+            border: 0;
+            background-color: transparent;
+    
+            .breadcrumb-item {
+                display: inline-block;
+                padding-right: .5rem;
+                color: #6c757d;
+                text-transform: uppercase;
+                font-size: .625rem;
+    
+                a {
+                    text-decoration: none;
+                    color: #6c757d;
+                }
+
+                &:last-child {
+                    a {
+                        color: #000;
+                        font-weight: bold;
+                    }
+                }
+            }
+    
+            .breadcrumb-item:not(:first-child)::before {
+                    display: inline-block;
+                    content: '/';
+                    color: #6c757d;
+                    padding-right: .5rem;
+            }
+        }
+    }
+
+    .product-details-selector {
+        .product-name {
+            padding-top: 0;
+            padding-bottom: .5rem;
+            margin: 0;
+            border: 0;
+            text-align: left;
+            color: #000;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-family: 'Jost',sans-serif;
+            font-size: 1.25rem;
+            line-height: normal;
+            letter-spacing: normal;
+        }
+
+        .product-price {
+            color: #000;
+            font-weight: 600;
+            font-family: 'Jost',sans-serif;
+            font-size: 1.0625rem;
+            line-height: normal;
+            letter-spacing: normal;
+        }
+
+        .payment-info {
+            font-size: .8125rem;
+            letter-spacing: .16px;
+            color: #8c8c8c;
+            font-family: 'Jost',sans-serif;
+            margin-bottom: 12px;
+        }
+
+        .product-actions {
+            margin-top: 10px;
+            
+            .add-to-bag-button {
+                display: flex;
+                text-align: center;
+                margin-right: -15px;
+                margin-left: -15px;
+
+                .add-button {
+                    height: 3rem;
+                    width: 100%;
+                    border: 0;
+                    margin: 0;
+                    padding: .9375rem;
+                    font-size: .8125rem;
+                    font-family: 'Jost',sans-serif;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    letter-spacing: .0625rem;
+                    background-color:#000;
+                    color: #fff;
+                }
+            }
+
+            .add-to-wishlist-button {
+                display: flex;
+                cursor: pointer;
+                z-index: 5;
+                align-items: center;
+                justify-content: center;
+                padding: 0;
+                border: 0;
+                height: 3.125rem;
+                margin-top: -5px;
+
+                .ng-fa-icon {
+                    font-size: 2.125rem;
+                }
+            }
+        }
+    }
+}
