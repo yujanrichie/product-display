@@ -3,7 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
 
-import { ProductInfo, ProductType, ProductTypeMediaInfo, ProductTypeSizeInfo } from '../models/product-info';
+import { ProductInfo, ProductType, ProductTypeMediaInfo, ProductTypeSizeInfo } from 'src/app/models/product-info';
 
 
 @Injectable({
