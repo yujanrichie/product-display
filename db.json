@@ -1,0 +1,326 @@
+{
+    "data": {
+        "version": 1.0,
+        "date": "2020-01-21 12:42:00",
+        "product": {
+            "comestriID": "eyes-that-know-me-dress",
+            "status": "active",
+            "name": "Eyes That Know Me Dress",
+            "externalProductID": "19461-1",
+            "variations": "Variation Master",
+            "family": "dresses_style",
+            "brand": "Showpo",
+            "hierarchy": "Home > Dresses",
+            "taxClassID": "PC040100",
+            "goLiveAt": "2020-01-22T11:00:00+1100",
+            "attributes": {
+                "adultProduct": false,
+                "productType": "Dresses",
+                "occasion": "Going Out",
+                "sleeve": "Off the Shoulder",
+                "neck": "Sweetheart",
+                "fabric": "Polyester",
+                "dressStyle": "Bodycon"
+            },
+            "children": [
+                {
+                    "comestriID": "eyes-that-know-me-dress-in-black",
+                    "status": "active",
+                    "name": "Eyes That Know Me Dress in Black",
+                    "externalProductID": "a129b023-1aac-11ea-a420-02da83b25122",
+                    "variations": "Variation Group",
+                    "url": "eyes-that-know-me-dress-in-black.html",
+                    "reportingColor": "Black",
+                    "pdpColor": "Black",
+                    "plpColor": "Black",
+                    "price" : 79.95,
+                    "nonRefundable": false,
+                    "searchable": true,
+                    "goLiveAt": "2020-01-21 19:00:00",
+                    "creationDate": "2020-05-13T08:50:41.323+10:00",
+                    "lastModified": "2020-09-07T13:58:47.187+10:00",
+                    "long_description": "<p>We are majorly crushing on this Eyes That Know Me Dress! Make a statement with this mini length piece which also features sheer long sleeves. This dress is a super versatile addition to your wardrobe! Slip it on for a cute day date or brunch with the girls!</p><p><span></span>Product Details</p><ul><li>Invisible zipper on the center back</li><li>No pockets</li><li>Low stretch</li></ul><p>Size &amp; Fit</p><ul><li>Length: 84cm / 33in</li><li>Model is wearing size 8 AU / 4 US / 8 UK / 36 EU</li><li>Model's height is&nbsp;179cm / 5'10.5\"</li></ul><p>Material &amp; Care</p><ul><li>Made with&nbsp;100% polyester.</li><li>Partially lined.</li><li>Cold hand wash only, cool iron, do not tumble dry, wash separately.</li></ul><p>&nbsp;&nbsp;</p>",
+                    "media": [
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dw2ae73acc/images/eyes-that-know-me-dress/eyesthatknowmedressinblack.jpg",
+                            "description": "",
+                            "isPrimary": true,
+                            "position": 1,
+                            "type": [
+                                "hi-res",
+                                "flicker",
+                                "swatch"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dw34fb74df/images/eyes-that-know-me-dress/eyesthatknowmedressinblack_.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 5,
+                            "type": [
+                                "hi-res",
+                                "flicker"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dwd15a7ad8/images/eyes-that-know-me-dress/eyesthatknowmedressinblack_1.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 13,
+                            "type": [
+                                "hi-res"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dwaea181f9/images/eyes-that-know-me-dress/eyesthatknowmedressinblack_13.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 14,
+                            "type": [
+                                "hi-res"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dw54981135/images/eyes-that-know-me-dress/eyesthatknowmedressinblack_14.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 15,
+                            "type": [
+                                "hi-res"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dw9418c31b/images/eyes-that-know-me-dress/eyesthatknowmedressinblack_16.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 16,
+                            "type": [
+                                "hi-res"
+                            ]
+                        }
+                    ],
+                    "children": [
+                        {
+                            "comestriID": "eyes-that-know-me-dress-in-black-6-xs",
+                            "status": "active",
+                            "name": "Eyes That Know Me Dress in black - 6 (XS)",
+                            "externalProductID": "ad09aaf8-1aac-11ea-a420-02da83b25aa2",
+                            "family": "dresses_style",
+                            "barcode": "9145467616836",
+                            "inStock": true,
+                            "url": "eyes-that-know-me-dress-in-black-6-xs",
+                            "creationDate": "2020-05-13T08:51:09.220+10:00",
+                            "lastModified": "2020-06-16T14:52:57.901+10:00",
+                            "attributes": {
+                                "size": "6 (XS)"
+                            }
+                        },
+                        {
+                            "comestriID": "eyes-that-know-me-dress-in-black-8-s",
+                            "status": "active",
+                            "name": "Eyes That Know Me Dress in black - 8 (S)",
+                            "externalProductID": "ad09aaf8-1aac-11ea-a420-02da83b25aa3",
+                            "family": "dresses_style",
+                            "barcode": "9145467616836",
+                            "inStock": false,
+                            "url": "eyes-that-know-me-dress-in-black-8-s",
+                            "creationDate": "2020-05-13T08:51:09.220+10:00",
+                            "lastModified": "2020-06-16T14:52:57.901+10:00",
+                            "attributes": {
+                                "size": "8 (S)"
+                            }
+                        },
+                        {
+                            "comestriID": "eyes-that-know-me-dress-in-black-10-m",
+                            "status": "active",
+                            "name": "Eyes That Know Me Dress in black - 10 (M)",
+                            "externalProductID": "ad09aaf8-1aac-11ea-a420-02da83b25aa4",
+                            "family": "dresses_style",
+                            "barcode": "9145467616836",
+                            "inStock": true,
+                            "url": "eyes-that-know-me-dress-in-black-10-m",
+                            "creationDate": "2020-05-13T08:51:09.220+10:00",
+                            "lastModified": "2020-06-16T14:52:57.901+10:00",
+                            "attributes": {
+                                "size": "10 (M)"
+                            }
+                        },
+                        {
+                            "comestriID": "eyes-that-know-me-dress-in-black-12-L",
+                            "status": "active",
+                            "name": "Eyes That Know Me Dress in black - 12 (L)",
+                            "externalProductID": "ad09aaf8-1aac-11ea-a420-02da83b25aa5",
+                            "family": "dresses_style",
+                            "barcode": "9145467616836",
+                            "inStock": false,
+                            "url": "eyes-that-know-me-dress-in-black-12-L",
+                            "creationDate": "2020-05-13T08:51:09.220+10:00",
+                            "lastModified": "2020-06-16T14:52:57.901+10:00",
+                            "attributes": {
+                                "size": "12 (L)"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "comestriID": "eyes-that-know-me-dress-in-wine",
+                    "status": "active",
+                    "name": "Eyes That Know Me Dress in Wine",
+                    "externalProductID": "a129b023-1aac-11ea-a420-02da83b25122",
+                    "variations": "Variation Group",
+                    "url": "eyes-that-know-me-dress-in-wine.html",
+                    "reportingColor": "Red",
+                    "pdpColor": "Wine",
+                    "plpColor": "Red",
+                    "price" : 49.95,
+                    "nonRefundable": false,
+                    "searchable": true,
+                    "goLiveAt": "2020-01-21 19:00:00",
+                    "creationDate": "2020-05-13T08:50:41.323+10:00",
+                    "lastModified": "2020-09-07T13:58:47.187+10:00",
+                    "long_description": "<p><span>We are majorly crushing on this Eyes That Know Me Dress! Make a statement with this mini length piece which also features sheer long sleeves. This dress is a super versatile addition to your wardrobe! Slip it on for a cute day date or brunch with the girls!</span></p><p>- Made With 100% Polyester &amp; Love<br />- Partially Lined<br />- Care For Me: Cold Hand Wash Only, Cool Iron, Do Not Tumble Dry, Wash Separately<br />- Length: 84cm/ 33in<br />- No Stretch<br />- Yvette is wearing size 8 AUS / 4 US / 8 UK / 36 EU<br />- Yvette's height is 169cm / 5ft 5in</p>",
+                    "media": [
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dw24667a11/images/eyes-that-know-me-dress/eyes_that_know_me_dress_in_wine_tn.jpg",
+                            "description": "",
+                            "isPrimary": true,
+                            "position": 1,
+                            "type": [
+                                "hi-res",
+                                "flicker",
+                                "swatch"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dwb77490e6/images/eyes-that-know-me-dress/eyes_that_know_me_dress_in_wine_ro.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 2,
+                            "type": [
+                                "hi-res",
+                                "flicker"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dwe3e4dff2/images/eyes-that-know-me-dress/eyes_that_know_me_dress_in_wine_1_.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 3,
+                            "type": [
+                                "hi-res"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dw69c707e6/images/eyes-that-know-me-dress/eyes_that_know_me_dress_in_wine_8_.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 4,
+                            "type": [
+                                "hi-res"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dweceacc55/images/eyes-that-know-me-dress/eyes_that_know_me_dress_in_wine_7_.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 5,
+                            "type": [
+                                "hi-res"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dwabc9e323/images/eyes-that-know-me-dress/eyes_that_know_me_dress_in_wine_9_.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 6,
+                            "type": [
+                                "hi-res"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dwe452d55b/images/eyes-that-know-me-dress/eyes_that_know_me_dress_in_wine_11_.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 11,
+                            "type": [
+                                "hi-res"
+                            ]
+                        },
+                        {
+                            "url": "/on/demandware.static/-/Sites-sp-master-catalog/default/dw35b829c6/images/eyes-that-know-me-dress/eyes_that_know_me_dress_in_wine_10_.jpg",
+                            "description": "",
+                            "isPrimary": false,
+                            "position": 10,
+                            "type": [
+                                "hi-res"
+                            ]
+                        }
+                    ],
+                    "children": [
+                        {
+                            "comestriID": "eyes-that-know-me-dress-in-wine-6-xs",
+                            "status": "active",
+                            "name": "Eyes That Know Me Dress in wine - 6 (XS)",
+                            "externalProductID": "ad09aaf8-1aac-11ea-a420-02da83b25aa2",
+                            "family": "dresses_style",
+                            "barcode": "9145467616836",
+                            "inStock": false,
+                            "url": "eyes-that-know-me-dress-in-wine-6-xs",
+                            "creationDate": "2020-05-13T08:51:09.220+10:00",
+                            "lastModified": "2020-06-16T14:52:57.901+10:00",
+                            "attributes": {
+                                "size": "6 (XS)"
+                            }
+                        },
+                        {
+                            "comestriID": "eyes-that-know-me-dress-in-wine-8-s",
+                            "status": "active",
+                            "name": "Eyes That Know Me Dress in wine - 8 (S)",
+                            "externalProductID": "ad09aaf8-1aac-11ea-a420-02da83b25aa3",
+                            "family": "dresses_style",
+                            "barcode": "9145467616836",
+                            "inStock": false,
+                            "url": "eyes-that-know-me-dress-in-wine-8-s",
+                            "creationDate": "2020-05-13T08:51:09.220+10:00",
+                            "lastModified": "2020-06-16T14:52:57.901+10:00",
+                            "attributes": {
+                                "size": "8 (S)"
+                            }
+                        },
+                        {
+                            "comestriID": "eyes-that-know-me-dress-in-wine-10-m",
+                            "status": "active",
+                            "name": "Eyes That Know Me Dress in wine - 10 (M)",
+                            "externalProductID": "ad09aaf8-1aac-11ea-a420-02da83b25aa4",
+                            "family": "dresses_style",
+                            "barcode": "9145467616836",
+                            "inStock": true,
+                            "url": "eyes-that-know-me-dress-in-wine-10-m",
+                            "creationDate": "2020-05-13T08:51:09.220+10:00",
+                            "lastModified": "2020-06-16T14:52:57.901+10:00",
+                            "attributes": {
+                                "size": "10 (M)"
+                            }
+                        },
+                        {
+                            "comestriID": "eyes-that-know-me-dress-in-wine-12-L",
+                            "status": "active",
+                            "name": "Eyes That Know Me Dress in wine - 12 (L)",
+                            "externalProductID": "ad09aaf8-1aac-11ea-a420-02da83b25aa5",
+                            "family": "dresses_style",
+                            "barcode": "9145467616836",
+                            "inStock": true,
+                            "url": "eyes-that-know-me-dress-in-wine-12-L",
+                            "creationDate": "2020-05-13T08:51:09.220+10:00",
+                            "lastModified": "2020-06-16T14:52:57.901+10:00",
+                            "attributes": {
+                                "size": "12 (L)"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+}
