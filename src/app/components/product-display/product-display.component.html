@@ -1,3 +1,32 @@
-<app-product-carousel [MediaList]="productData?.types[selectedTypeIndex]?.mediaList"></app-product-carousel>
-<app-product-type-selector [ProductTypeList]="productData?.types"></app-product-type-selector>
-<app-size-selector [SizeInfoList]="productData?.types[selectedTypeIndex]?.sizeList"></app-size-selector>
+<div class="product-display-container container">
+    <div class="row">
+        <div class="breadcrumbs">
+            <ol class="breadcrumb">
+                <li *ngFor="let breadcrumb of breadcrumbs" class="breadcrumb-item">
+                    <a href="#">{{breadcrumb}}</a>
+                </li>
+            </ol>
+        </div>
+    </div>
+    <div class="row">
+        <div class="product-display-details col-12 col-md-6 col-lg-5 col-xl-8">
+            <app-product-carousel [MediaList]="productData?.types[selectedTypeIndex]?.mediaList"></app-product-carousel>
+        </div>
+        <div class="product-details-selector col-12 col-md-6 col-lg-6 col-xl-4">
+            <div class="row">
+                <h1 class="product-name">{{productData?.types[selectedTypeIndex]?.name}}</h1>
+            </div>
+            <div class="row">
+                <span class="product-price">AU${{productData?.types[selectedTypeIndex]?.price}}</span>
+            </div>
+            <div class="row">
+                <app-product-type-selector [ProductTypeList]="productData?.types"></app-product-type-selector>
+            </div>
+            <div class="row">
+                <app-size-selector [SizeInfoList]="productData?.types[selectedTypeIndex]?.sizeList"></app-size-selector>
+            </div>
+
+        </div>
+    </div>
+
+</div>

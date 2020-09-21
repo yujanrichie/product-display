@@ -11,6 +11,7 @@ import { ProductInfo, ProductType, ProductTypeMediaInfo, ProductTypeSizeInfo } f
 export class ProductDisplayComponent implements OnInit {
   public productData: ProductInfo = null;
   public selectedTypeIndex: number = 0;
+  public breadcrumbs: string[] = [];
 
   constructor(public productService: ProductService) { }
 
@@ -32,6 +33,11 @@ export class ProductDisplayComponent implements OnInit {
           this.productData.types[0].isSelected = true;
           this.selectedTypeIndex = 0;
         }
+
+        //set breadcrumbs
+        this.breadcrumbs = this.productData.hierarchy.split(' > ');
+        this.breadcrumbs.push(this.productData.types[this.selectedTypeIndex].name);
+        
       }
 
       console.log('data', this.productData)

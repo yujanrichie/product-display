@@ -11,6 +11,7 @@ export interface ProductType {
     id: string;
     status: string;
     name: string;
+    price: number;
     colorText?: string;
     url?: string;
     imageURL?: string,

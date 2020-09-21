@@ -65,6 +65,7 @@ export class ProductService {
         id: type.comestriID,
         status: type.status,
         name: type.name,
+        price: type.price,
         colorText: type.pdpColor,
         url: type.url,
         mediaList: this.getMappedMediaList(type.media),
@@ -75,7 +76,7 @@ export class ProductService {
       if ((type.media != null) && (type.media.length > 0)) {
         newProductType.imageURL = type.media[0].url;
       }
-      
+
       mappedTypeList.push(newProductType);
     });
 
