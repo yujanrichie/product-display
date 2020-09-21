@@ -20,12 +20,24 @@
                 <span class="product-price">AU${{productData?.types[selectedTypeIndex]?.price}}</span>
             </div>
             <div class="row">
+                <span class="payment-info">of 4 payments of US$16.24 with</span>
+            </div>
+            <div class="row">
                 <app-product-type-selector [ProductTypeList]="productData?.types"></app-product-type-selector>
             </div>
             <div class="row">
                 <app-size-selector [SizeInfoList]="productData?.types[selectedTypeIndex]?.sizeList"></app-size-selector>
             </div>
-
+            <div class="row product-actions">
+                <div class="add-to-bag-button col-9 col-sm-10 col-lg-10 col-xl-9">
+                    <button class="btn add-button" type="submit">
+                        <span>ADD TO BAG</span>
+                    </button>
+                </div>
+                <div class="add-to-wishlist-button col-3 col-sm-2 col-xl-3">
+                    <fa-icon [icon]="faHeart"></fa-icon>
+                </div>
+            </div>
         </div>
     </div>
 

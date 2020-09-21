@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 import { ProductService } from 'src/app/services/product.service';
-import { ProductInfo, ProductType, ProductTypeMediaInfo, ProductTypeSizeInfo } from 'src/app/models/product-info';
+import { ProductInfo } from 'src/app/models/product-info';
 
 @Component({
   selector: 'app-product-display',
@@ -12,6 +13,7 @@ export class ProductDisplayComponent implements OnInit {
   public productData: ProductInfo = null;
   public selectedTypeIndex: number = 0;
   public breadcrumbs: string[] = [];
+  public faHeart = faHeart;
 
   constructor(public productService: ProductService) { }
 
